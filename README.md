@@ -14,6 +14,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 | [OpenSync](https://github.com/Allan-dq/OpenSync) | Event-driven partner inventory sync with idempotency, out-of-order handling, transactional outbox, retries/DLQ and LLM-assisted schema mapping | Java 21 · Spring Boot · Kafka · PostgreSQL · Redis · OpenTelemetry |
 | [CreatorKit AI](https://github.com/Allan-dq/CreatorKit-AI) | Agentic design studio: seven schema-governed agents turn a brief into a validated, token-compliant prototype; ships an MCP-compatible design-system tool server | TypeScript · React · Zod · Storybook · Playwright |
 | [Mortgage Prepayment Modeling](https://github.com/Allan-dq/mortgage-prepayment-modeling-freddie-mac) | Leakage-aware monthly prepayment hazard on Freddie Mac loan-level data, with calendar-time backtests and calibration | Python · scikit-learn |
+| [SoCal ZIP Market Score](https://github.com/Allan-dq/socal-zip-time-market-score) | 0–100 market score for every Southern California ZIP code and period; model chosen under repeated nested cross-validation with leave-one-city-out and distribution-shift checks | Python · scikit-learn · Jupyter |
 | [Thai Stock Market Chatbot](https://github.com/Allan-dq/News-Retrieval-of-Thailand-Stock-Market) | LLM Q&A for the Thai stock market with live SET data and news scraping | Python · FastAPI · Gemini |
 
 ## Toolbox
