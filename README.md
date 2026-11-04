@@ -15,6 +15,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 | [OpenSync](https://github.com/Allan-dq/OpenSync) | Event-driven partner inventory sync with idempotency, out-of-order handling, transactional outbox, retries/DLQ and LLM-assisted schema mapping | Java 21 · Spring Boot · Kafka · PostgreSQL · Redis · OpenTelemetry |
 | [Mortgage Prepayment Modeling](https://github.com/Allan-dq/mortgage-prepayment-modeling-freddie-mac) | Leakage-aware monthly prepayment hazard on Freddie Mac loan-level data, with calendar-time backtests and calibration | Python · scikit-learn |
 | [CreatorKit AI](https://github.com/Allan-dq/CreatorKit-AI) | Agentic design studio: seven schema-governed agents turn a brief into a validated, token-compliant prototype; ships an MCP-compatible design-system tool server | TypeScript · React · Zod · Storybook · Playwright |
+| [Meridian MMM Case Study](https://github.com/Allan-dq/meridian-mmm-case-study) | Marketing-mix model built with Google Meridian on its simulated geo dataset, read out for finance: channel ROI vs marginal ROI with 90% credible intervals, a 10% budget reallocation, budget optimization and a budget-level test. Every channel's mean marginal ROI is below 1; the last 10% of the budget returns $0.61 of revenue per $1 | Python · Meridian · JAX · Bayesian MCMC |
 | [SoCal ZIP Market Score](https://github.com/Allan-dq/socal-zip-time-market-score) | 0–100 market score for every Southern California ZIP code and period; model chosen under repeated nested cross-validation with leave-one-city-out and distribution-shift checks | Python · scikit-learn · Jupyter |
 | [Thai Stock Market Chatbot](https://github.com/Allan-dq/News-Retrieval-of-Thailand-Stock-Market) | LLM Q&A for the Thai stock market with live SET data and news scraping | Python · FastAPI · Gemini |
 
@@ -23,7 +24,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 - **Languages:** Python · Java · TypeScript · C# · SQL
 - **ML & CV:** scikit-learn · OpenCV · YOLO · PaddleOCR · LayoutLMv3
 - **Backend & infra:** FastAPI · Spring Boot · Kafka · PostgreSQL · Redis · Docker · Kubernetes
-- **Quant & finance:** forecasting (statsforecast, hierarchical reconciliation) · FP&A modeling · SQL (DuckDB, BigQuery) · Data Studio dashboards · credit risk · time-series validation
+- **Quant & finance:** forecasting (statsforecast, hierarchical reconciliation) · FP&A modeling · marketing-mix modeling (Meridian) · SQL (DuckDB, BigQuery) · Data Studio dashboards · credit risk · time-series validation
 - **AI-assisted development:** ship with AI coding agents (Claude Code, MCP tooling) under test-gated review
 
 ## Contact
