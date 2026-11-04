@@ -11,7 +11,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 | Project | What it does | Stack |
 |---|---|---|
 | [FreightLens AI](https://github.com/Allan-dq/freightlens-ai) · [live demo](https://huggingface.co/spaces/AllanDai/freightlens-ai) | Freight document and video verification. Pallet detector trained on real warehouse photos (LOCO, 0.55 pallet AP50 on unseen sessions) runs in the browser; LayoutLMv3 form model (0.80 entity F1 on FUNSD) | Python · PaddleOCR · LayoutLMv3 · YOLO · ByteTrack · FastAPI |
-| [Alphabet FP&A Forecast](https://github.com/Allan-dq/alphabet-fpa-forecast) · [exec summary](https://github.com/Allan-dq/alphabet-fpa-forecast/blob/main/reports/exec_summary.md) | Quarterly revenue and P&L forecast for Alphabet from 41 SEC XBRL filings, with a SQL reporting layer, variance bridges and scenarios. Backtest WAPE 3.2% on total revenue (seasonal naive 14.0%); 1.6% mean one-quarter-ahead revenue error over the last 8 quarters | Python · statsforecast · hierarchicalforecast · DuckDB/SQL |
+| [Alphabet FP&A Forecast](https://github.com/Allan-dq/alphabet-fpa-forecast) · [exec summary](https://github.com/Allan-dq/alphabet-fpa-forecast/blob/main/reports/exec_summary.md) | Quarterly revenue and P&L forecast for Alphabet from 41 SEC XBRL filings, with a SQL reporting layer, variance bridges and scenarios. Backtest WAPE 3.2% on total revenue (seasonal naive 14.0%, zero-shot TimesFM 3.0 4.0%); 1.6% mean one-quarter-ahead revenue error over the last 8 quarters | Python · statsforecast · hierarchicalforecast · DuckDB · BigQuery |
 | [OpenSync](https://github.com/Allan-dq/OpenSync) | Event-driven partner inventory sync with idempotency, out-of-order handling, transactional outbox, retries/DLQ and LLM-assisted schema mapping | Java 21 · Spring Boot · Kafka · PostgreSQL · Redis · OpenTelemetry |
 | [Mortgage Prepayment Modeling](https://github.com/Allan-dq/mortgage-prepayment-modeling-freddie-mac) | Leakage-aware monthly prepayment hazard on Freddie Mac loan-level data, with calendar-time backtests and calibration | Python · scikit-learn |
 | [CreatorKit AI](https://github.com/Allan-dq/CreatorKit-AI) | Agentic design studio: seven schema-governed agents turn a brief into a validated, token-compliant prototype; ships an MCP-compatible design-system tool server | TypeScript · React · Zod · Storybook · Playwright |
@@ -23,7 +23,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 - **Languages:** Python · Java · TypeScript · C# · SQL
 - **ML & CV:** scikit-learn · OpenCV · YOLO · PaddleOCR · LayoutLMv3
 - **Backend & infra:** FastAPI · Spring Boot · Kafka · PostgreSQL · Redis · Docker · Kubernetes
-- **Quant & finance:** forecasting (statsforecast, hierarchical reconciliation) · FP&A modeling · SQL (DuckDB, BigQuery-compatible) · credit risk · time-series validation
+- **Quant & finance:** forecasting (statsforecast, hierarchical reconciliation) · FP&A modeling · SQL (DuckDB, BigQuery) · Data Studio dashboards · credit risk · time-series validation
 - **AI-assisted development:** ship with AI coding agents (Claude Code, MCP tooling) under test-gated review
 
 ## Contact
