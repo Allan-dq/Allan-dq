@@ -10,7 +10,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 
 | Project | What it does | Stack |
 |---|---|---|
-| [FreightLens AI](https://github.com/Allan-dq/freightlens-ai) | Freight document and video verification: OCR field extraction, pallet detection and tracking, and anomaly reconciliation between paperwork and what the camera saw | Python · PaddleOCR · LayoutLMv3 · YOLO · ByteTrack · FastAPI |
+| [FreightLens AI](https://github.com/Allan-dq/freightlens-ai) · [live demo](https://huggingface.co/spaces/AllanDai/freightlens-ai) | Freight document and video verification. Pallet detector trained on real warehouse photos (LOCO, 0.52 pallet AP50 on unseen sessions) runs in the browser; LayoutLMv3 form model (0.80 entity F1 on FUNSD) | Python · PaddleOCR · LayoutLMv3 · YOLO · ByteTrack · FastAPI |
 | [OpenSync](https://github.com/Allan-dq/OpenSync) | Event-driven partner inventory sync with idempotency, out-of-order handling, transactional outbox, retries/DLQ and LLM-assisted schema mapping | Java 21 · Spring Boot · Kafka · PostgreSQL · Redis · OpenTelemetry |
 | [CreatorKit AI](https://github.com/Allan-dq/CreatorKit-AI) | Agentic design studio: seven schema-governed agents turn a brief into a validated, token-compliant prototype; ships an MCP-compatible design-system tool server | TypeScript · React · Zod · Storybook · Playwright |
 | [Mortgage Prepayment Modeling](https://github.com/Allan-dq/mortgage-prepayment-modeling-freddie-mac) | Leakage-aware monthly prepayment hazard on Freddie Mac loan-level data, with calendar-time backtests and calibration | Python · scikit-learn |
