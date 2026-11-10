@@ -16,13 +16,14 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 | [Mortgage Prepayment Modeling](https://github.com/Allan-dq/mortgage-prepayment-modeling-freddie-mac) | Leakage-aware monthly prepayment hazard on Freddie Mac loan-level data, with calendar-time backtests and calibration | Python · scikit-learn |
 | [CreatorKit AI](https://github.com/Allan-dq/CreatorKit-AI) | Agentic design studio: seven schema-governed agents turn a brief into a validated, token-compliant prototype; ships an MCP-compatible design-system tool server | TypeScript · React · Zod · Storybook · Playwright |
 | [Meridian MMM Case Study](https://github.com/Allan-dq/meridian-mmm-case-study) | Marketing-mix model built with Google Meridian on its simulated geo dataset, read out for finance: channel ROI vs marginal ROI with 90% credible intervals, a 10% budget reallocation, budget optimization and a budget-level test. Every channel's mean marginal ROI is below 1; the last 10% of the budget returns $0.61 of revenue per $1 | Python · Meridian · JAX · Bayesian MCMC |
+| [Battery Cycling Data Pipeline](https://github.com/Allan-dq/battery-cycling-pipeline) | ETL, data-quality checks and anomaly detection on 119M rows of public battery-cycler time series (MATR/Severson 2019, NASA PCoE, 169 cells). Reproduces the paper's early-cycle life models: discharge model RMSE 86 cycles on the primary test (paper 91) | Python · cellpy · DuckDB · Parquet · MLflow · FastAPI · Docker |
 
 **More projects:** [SoCal ZIP Market Score](https://github.com/Allan-dq/socal-zip-time-market-score) (0–100 ZIP-by-period market score, nested cross-validation) · [Thai Stock Market Chatbot](https://github.com/Allan-dq/News-Retrieval-of-Thailand-Stock-Market) (LLM Q&A with live SET data)
 
 ## Toolbox
 
 - **Languages:** Python · Java · TypeScript · C# · SQL
-- **ML & CV:** scikit-learn · OpenCV · YOLO · PaddleOCR · LayoutLMv3
+- **ML & CV:** scikit-learn · OpenCV · YOLO · PaddleOCR · LayoutLMv3 · MLflow
 - **Backend & infra:** FastAPI · Spring Boot · Kafka · PostgreSQL · Redis · Docker · Kubernetes
 - **Quant & finance:** forecasting (statsforecast, hierarchical reconciliation) · FP&A modeling · marketing-mix modeling (Meridian) · SQL (DuckDB, BigQuery) · Data Studio dashboards · credit risk · time-series validation
 - **AI-assisted development:** ship with AI coding agents (Claude Code, MCP tooling) under test-gated review
