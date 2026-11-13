@@ -23,6 +23,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 ## Open-source contributions
 
 - **[cellpy](https://github.com/jepegit/cellpy)** (battery-cycler data toolkit): [#1201](https://github.com/jepegit/cellpy/pull/1201), merged. The Neware `.nda`/`.ndax` loader now keeps the measured cell temperature and other auxiliary channels, which it used to drop; tested on the repository's own Neware fixture ([issue #1184](https://github.com/jepegit/cellpy/issues/1184)).
+- **[QuantLib-SWIG](https://github.com/lballabio/QuantLib-SWIG)** (Python bindings for the QuantLib quant-finance library): [#955](https://github.com/lballabio/QuantLib-SWIG/pull/955), merged. Exposes the `NaturalCubicFitting` bond-curve fitting method to Python and adds the first Python tests for fitted bond discount curves.
 
 ## Toolbox
 
