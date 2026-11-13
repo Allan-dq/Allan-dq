@@ -20,6 +20,10 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 
 **More projects:** [SoCal ZIP Market Score](https://github.com/Allan-dq/socal-zip-time-market-score) (0–100 ZIP-by-period market score, nested cross-validation) · [Thai Stock Market Chatbot](https://github.com/Allan-dq/News-Retrieval-of-Thailand-Stock-Market) (LLM Q&A with live SET data)
 
+## Open-source contributions
+
+- **[cellpy](https://github.com/jepegit/cellpy)** (battery-cycler data toolkit): [#1201](https://github.com/jepegit/cellpy/pull/1201), merged. The Neware `.nda`/`.ndax` loader now keeps the measured cell temperature and other auxiliary channels, which it used to drop; tested on the repository's own Neware fixture ([issue #1184](https://github.com/jepegit/cellpy/issues/1184)).
+
 ## Toolbox
 
 - **Languages:** Python · Java · TypeScript · C# · SQL
