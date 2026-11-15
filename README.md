@@ -28,7 +28,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 
 ## Toolbox
 
-- **Languages:** Python · Java · TypeScript · C# · SQL
+- **Languages:** Python · Java · TypeScript · C# · C++ · SQL
 - **ML & CV:** scikit-learn · OpenCV · YOLO · PaddleOCR · LayoutLMv3 · MLflow
 - **Backend & infra:** FastAPI · Spring Boot · Kafka · PostgreSQL · Redis · Docker · Kubernetes
 - **Quant & finance:** forecasting (statsforecast, hierarchical reconciliation) · FP&A modeling · marketing-mix modeling (Meridian) · SQL (DuckDB, BigQuery) · Data Studio dashboards · QuantLib (MBS/OAS, fitted bond curves) · credit risk · time-series validation
