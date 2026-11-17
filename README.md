@@ -5,7 +5,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 
 - **Now:** Software Engineer Intern at Newegg, where I build and run production computer-vision and warehouse automation services
 - **Before:** credit research & risk analytics at Allianz Asset Management, data analytics at Allianz Partners, front-end engineering at Leroy Merlin China
-- **Open source:** merged contributions to [QuantLib](https://github.com/lballabio/QuantLib) (C++ core and Python bindings) and [cellpy](https://github.com/jepegit/cellpy); details [below](#open-source-contributions)
+- **Open source:** merged contributions to [QuantLib](https://github.com/lballabio/QuantLib) (C++ core and Python bindings), [statsmodels](https://github.com/statsmodels/statsmodels) and [cellpy](https://github.com/jepegit/cellpy); details [below](#open-source-contributions)
 
 ## Featured projects
 
@@ -26,6 +26,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 - **[cellpy](https://github.com/jepegit/cellpy)** (battery-cycler data toolkit): [#1201](https://github.com/jepegit/cellpy/pull/1201), merged. The Neware `.nda`/`.ndax` loader now keeps the measured cell temperature and other auxiliary channels, which it used to drop; tested on the repository's own Neware fixture ([issue #1184](https://github.com/jepegit/cellpy/issues/1184)).
 - **[QuantLib-SWIG](https://github.com/lballabio/QuantLib-SWIG)** (Python bindings for the QuantLib quant-finance library): [#955](https://github.com/lballabio/QuantLib-SWIG/pull/955), merged. Exposes the `NaturalCubicFitting` bond-curve fitting method to Python and adds the first Python tests for fitted bond discount curves.
 - **[QuantLib](https://github.com/lballabio/QuantLib)** (C++ quant-finance library): [#3063](https://github.com/lballabio/QuantLib/pull/3063), merged. Adds the first tests for `NaturalCubicFitting` (evaluation, knot validation, calibration to bond prices) and fixes a bug they exposed: a negative knot time moved the d(0) = 1 constraint off t = 0, so the constructor now rejects it.
+- **[statsmodels](https://github.com/statsmodels/statsmodels)** (statistics library for Python): [#10738](https://github.com/statsmodels/statsmodels/pull/10738), merged, ships in 0.15.1. Adds `krippendorff_alpha` to `stats.inter_rater`: agreement among any number of raters, with missing ratings, for nominal, ordinal, interval and ratio data. Results match the original paper and R.
 
 ## Toolbox
 
