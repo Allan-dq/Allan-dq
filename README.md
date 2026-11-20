@@ -3,7 +3,7 @@
 Software engineer working across **AI / computer vision**, **backend systems** and **forecasting & quantitative modeling**.<br>
 M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, CA
 
-- **Now:** Software Engineer Intern at Newegg, where I build and run production computer-vision and warehouse automation services
+- **Now:** Software Engineer at Newegg, where I build and run production computer-vision and warehouse automation services
 - **Before:** credit research & risk analytics at Allianz Asset Management, data analytics at Allianz Partners, front-end engineering at Leroy Merlin China
 - **Open source:** merged contributions to [QuantLib](https://github.com/lballabio/QuantLib) (C++ core and Python bindings), [statsmodels](https://github.com/statsmodels/statsmodels), [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing) and [cellpy](https://github.com/jepegit/cellpy); details [below](#open-source-contributions)
 
