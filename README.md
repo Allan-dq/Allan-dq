@@ -5,7 +5,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 
 - **Now:** Software Engineer at Newegg, where I build and run production computer-vision and warehouse automation services
 - **Before:** credit research & risk analytics at Allianz Asset Management, data analytics at Allianz Partners, front-end engineering at Leroy Merlin China
-- **Open source:** merged contributions to [QuantLib](https://github.com/lballabio/QuantLib) (C++ core and Python bindings), [statsmodels](https://github.com/statsmodels/statsmodels), [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing) and [cellpy](https://github.com/jepegit/cellpy); details [below](#open-source-contributions)
+- **Open source:** merged contributions to [QuantLib](https://github.com/lballabio/QuantLib) (C++ core and Python bindings), [Microsoft PyRIT](https://github.com/microsoft/PyRIT), [statsmodels](https://github.com/statsmodels/statsmodels), [PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing) and [cellpy](https://github.com/jepegit/cellpy); details [below](#open-source-contributions)
 
 ## Featured projects
 
@@ -18,6 +18,7 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 | [CreatorKit AI](https://github.com/Allan-dq/CreatorKit-AI) | Seven schema-governed agents turn a design brief into a validated, token-compliant prototype; ships an MCP-compatible design-system tool server | TypeScript · React · Zod · Playwright |
 | [Meridian MMM Case Study](https://github.com/Allan-dq/meridian-mmm-case-study) | Marketing-mix model on Google Meridian's simulated geo data, read out for finance: ROI vs marginal ROI with 90% credible intervals. The last 10% of the budget returns $0.61 per $1 | Python · Meridian · JAX |
 | [Battery Cycling Data Pipeline](https://github.com/Allan-dq/battery-cycling-pipeline) | ETL, data-quality checks and anomaly detection on 119M rows of public battery-cycler data (169 cells). Reproduces the Severson 2019 early-cycle life model: RMSE 86 cycles (paper: 91) | Python · cellpy · DuckDB · MLflow · Docker |
+| [Field Robot Log Evaluation](https://github.com/Allan-dq/field-robot-log-eval) | Ingest, data-quality checks and evaluation for all 42 public GrandTour legged-robot missions (ETH Zurich), scored against a total-station prism with block-bootstrap intervals. Triage traced one mission's 12× error to a single bad ground-truth sample; a CI regression gate catches 14 of 14 seeded faults | Python · DuckDB · Parquet · evo · KISS-ICP |
 
 **More projects:** [SoCal ZIP Market Score](https://github.com/Allan-dq/socal-zip-time-market-score) (0–100 ZIP-by-period market score, nested cross-validation) · [Thai Stock Market Chatbot](https://github.com/Allan-dq/News-Retrieval-of-Thailand-Stock-Market) (LLM Q&A with live SET data)
 
@@ -28,11 +29,12 @@ M.S. Applied Mathematics & Statistics, Johns Hopkins University · Los Angeles, 
 - **[QuantLib](https://github.com/lballabio/QuantLib)** (C++ quant-finance library): [#3063](https://github.com/lballabio/QuantLib/pull/3063), merged. Adds the first tests for `NaturalCubicFitting` (evaluation, knot validation, calibration to bond prices) and fixes a bug they exposed: a negative knot time moved the d(0) = 1 constraint off t = 0, so the constructor now rejects it.
 - **[statsmodels](https://github.com/statsmodels/statsmodels)** (statistics library for Python): [#10738](https://github.com/statsmodels/statsmodels/pull/10738), merged, ships in 0.15.1. Adds `krippendorff_alpha` to `stats.inter_rater`: agreement among any number of raters, with missing ratings, for nominal, ordinal, interval and ratio data. Results match the original paper and R.
 - **[PyMC-Marketing](https://github.com/pymc-labs/pymc-marketing)** (Bayesian marketing-mix and customer-lifetime-value library): [#3347](https://github.com/pymc-labs/pymc-marketing/pull/3347), merged. HSGP recommendations now size the boundary `L` from the data's half-range, as `approx_hsgp_hyperparams` defines it, instead of its center; before, front-loaded time indexes could fall outside `[-L, L]`.
+- **[PyRIT](https://github.com/microsoft/PyRIT)** (Microsoft's AI red-teaming toolkit): [#4270](https://github.com/microsoft/PyRIT/pull/4270) and [#4304](https://github.com/microsoft/PyRIT/pull/4304), merged. I reported that the combined Krippendorff alpha counts every LLM-judge trial as a rater, so repeated trials can inflate it ([issue #4129](https://github.com/microsoft/PyRIT/issues/4129)); #4270 explains the combined vs. gold-vs-model alphas in the docs, docstring and GUI, and #4304 makes the alpha helpers keyword-only.
 
 ## Toolbox
 
 - **Languages:** Python · Java · TypeScript · C# · C++ · SQL
-- **ML & CV:** scikit-learn · OpenCV · YOLO · PaddleOCR · LayoutLMv3 · MLflow
+- **ML & CV:** scikit-learn · OpenCV · YOLO · PaddleOCR · LayoutLMv3 · MLflow · LLM-judge evaluation (inter-rater agreement) · odometry evaluation (evo)
 - **Backend & infra:** FastAPI · Spring Boot · Kafka · PostgreSQL · Redis · Docker · Kubernetes
 - **Quant & finance:** forecasting (statsforecast, hierarchical reconciliation) · FP&A modeling · marketing-mix modeling (Meridian) · SQL (DuckDB, BigQuery) · Data Studio dashboards · QuantLib (MBS/OAS, fitted bond curves) · credit risk · time-series validation
 - **AI-assisted development:** ship with AI coding agents (Claude Code, MCP tooling) under test-gated review
